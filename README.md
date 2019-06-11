@@ -1,6 +1,13 @@
 # Loops Exit Ticket
 
-Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
+## Instructions for lab submission
+
+1. Fork the assignment repo
+1. Clone your Fork to your machine
+1. Complete the lab
+1. Push your changes to your Fork
+1. Submit a Pull Request back to the assignment repo
+1. Paste a link to of your Fork on Canvas and submit
 
 ## Question 1
 
@@ -20,38 +27,40 @@ for number in 4..<8{
 print(myNum)
 ```
 
+***
 ## Question 2
 
 Which of the following loops will print out all the numbers between 1 and 100, inclusive?  Select all that apply.
 
-**A)**
+a)
 ```swift
 for i in 1..<100 {
     print(i)
 }
 ```
 
-**B)**
+B)
 ```swift
 for j in 1...100 {
     print(j)
 }
 ```
 
-**C)**
+C)
 ```swift
 for k in 1..<1000 where k < 101 {
     print(k)
 }
 ```
 
-**D)**
+D)
 ```swift
 for l in 1...100 where _ < 101 {
     print(l)
 }
 ```
 
+***
 ## Question 3
 
 How many times will the code below print **"Nesting!"** ?
@@ -64,11 +73,12 @@ for _ in 1...10{
 }
 ```
 
+***
 ## Question 4
 
 Which of the loops below will run forever? Select all that apply.
 
-**A)**
+a)
 ```swift
 var q = 0
 
@@ -78,7 +88,7 @@ while q%2 != 1 {
 }
 ```
 
-**B)**
+b)
 ```swift
 var r = 0
 
@@ -88,7 +98,7 @@ while r < 10 {
 }
 ```
 
-**C)**
+c)
 ```swift
 var s = 0
 
@@ -98,7 +108,7 @@ while 3 != 3 {
 }
 ```
 
-**D)**
+d)
 ```swift
 var t = 0
 
@@ -107,3 +117,5 @@ while t == t{
     t += 1
 }
 ```
+
+***
