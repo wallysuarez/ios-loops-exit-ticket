@@ -26,18 +26,13 @@ for number in 4..<8{
 
 print(myNum)
 ```
+23
 
 ***
 ## Question 2
 
 Which of the following loops will print out all the numbers between 1 and 100, inclusive?  Select all that apply.
 
-a)
-```swift
-for i in 1..<100 {
-    print(i)
-}
-```
 
 B)
 ```swift
@@ -46,19 +41,6 @@ for j in 1...100 {
 }
 ```
 
-C)
-```swift
-for k in 1..<1000 where k < 101 {
-    print(k)
-}
-```
-
-D)
-```swift
-for l in 1...100 where _ < 101 {
-    print(l)
-}
-```
 
 ***
 ## Question 3
@@ -72,6 +54,7 @@ for _ in 1...10{
     }
 }
 ```
+100 times
 
 ***
 ## Question 4
@@ -85,26 +68,6 @@ var q = 0
 while q%2 != 1 {
     print("Hello Problem Two!")
     q += 2
-}
-```
-
-b)
-```swift
-var r = 0
-
-while r < 10 {
-    print("Hi there!")
-    r += 11
-}
-```
-
-c)
-```swift
-var s = 0
-
-while 3 != 3 {
-    print("Howdy!")
-    s += 1
 }
 ```
 
